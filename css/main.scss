@@ -1,1 +1,52 @@
 @import "bootstrap.min.css";
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Oswald:700,200');
+
+body {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  background: #5C258D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(left, #4389A2, #5C258D);
+background: -o-linear-gradient(left, #4389A2, #5C258D);
+background: linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #fff;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
+li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.welcome {
+  width: 500px;
+  max-width: 75%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 25%;
+}
+
+.github {
+  color: #24292e;
+}
+
+.medium {
+  color: #02b875;
+}
+
+.facebook {
+  color: #4091C9;
+}

@@ -2378,9 +2378,10 @@ li {
   padding: 6px 12px;
   margin-bottom: 0;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.42857143;
   text-align: center;
+  text-transform: uppercase;
   white-space: nowrap;
   vertical-align: middle;
   -ms-touch-action: manipulation;
@@ -2434,5 +2435,24 @@ li {
   .twitter:hover {
     background-color: #0099cc;
     border-color: #0099cc; }
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 6rem; }
+
+  h2 {
+    font-size: 3rem; }
+
+  ul {
+    flex-direction: column; }
+
+  li {
+    display: block;
+    margin-right: 0px;
+    margin-bottom: 10px; }
+
+  .btn {
+    width: 75%;
+    padding: 12px 12px; } }
 
 /*# sourceMappingURL=main.css.map */

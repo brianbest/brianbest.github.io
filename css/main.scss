@@ -1,34 +1,82 @@
-@import "bootstrap.min.css";
+@import "font-awesome/scss/font-awesome.scss";
 @import "reset.css";
+@import "bootstrap.css";
 @import url('https://fonts.googleapis.com/css?family=Oswald:700,200');
 
 body {
+  background: #5C258D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(left, #4389A2, #5C258D);
+  background: -o-linear-gradient(left, #4389A2, #5C258D);
+  background: linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
-  background: #5C258D;  /* fallback for old browsers */
-background: -webkit-linear-gradient(left, #4389A2, #5C258D);
-background: -o-linear-gradient(left, #4389A2, #5C258D);
-background: linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  color: #fff;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 7.5rem;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 10px;
+  margin-left: -3px;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 4.5rem;
   font-weight: 200;
-  margin-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 25px;
 }
 
+h5 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+ul{
+  overflow: auto;
+  display: flex;
+  justify-content: flex-start;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
 li {
   display: inline-block;
-  margin-right: 10px;
+  overflow: auto;
+  margin-right:10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color:#fff;
+
+  &:hover{
+    color:#fff;
+    text-decoration: none;
+  }
 }
 
 .welcome {
@@ -36,17 +84,41 @@ li {
   max-width: 75%;
   margin: 0 auto;
   display: block;
-  margin-top: 25%;
+  margin-top: 20%;
+    overflow: auto;
 }
 
 .github {
-  color: #24292e;
+  border-color: #24292e;
+  transition: all 350ms;
+  &:hover{
+    background-color: darken(#24292e, 10%);
+    border-color: darken(#24292e, 10%);
+  }
 }
 
 .medium {
-  color: #02b875;
+  border-color: #018555;
+  transition: all 350ms;
+  &:hover{
+    background-color: darken(#018555, 10%);
+    border-color: darken(#018555, 10%);
+  }
 }
 
 .facebook {
-  color: #4091C9;
+  border-color: #4091C9;
+  transition: all 350ms;
+  &:hover{
+    background-color: darken(#4091C9, 10%);
+    border-color: darken(#4091C9, 10%);
+  }
+}
+.twitter{
+  border-color: #33CCFF;
+  transition: all 350ms;
+  &:hover{
+    background-color: darken(#33CCFF, 20%);
+    border-color: darken(#33CCFF, 20%);
+  }
 }

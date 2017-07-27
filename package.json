@@ -1,0 +1,22 @@
+{
+  "name": "brianbest.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianbest/brianbest.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianbest/brianbest.github.io/issues"
+  },
+  "homepage": "https://github.com/brianbest/brianbest.github.io#readme",
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}
